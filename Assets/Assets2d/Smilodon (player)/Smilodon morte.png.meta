@@ -1,0 +1,1194 @@
+fileFormatVersion: 2
+guid: a3438065a6276ac4b9b6ab091fcec5b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7648287352189781579
+    second: Smilodon morte_0
+  - first:
+      213: 8799922676378906487
+    second: Smilodon morte_1
+  - first:
+      213: -5703358466627392206
+    second: Smilodon morte_2
+  - first:
+      213: 3912446070624087242
+    second: Smilodon morte_3
+  - first:
+      213: -3349167605354076188
+    second: Smilodon morte_4
+  - first:
+      213: -149979553434527724
+    second: Smilodon morte_5
+  - first:
+      213: -374699563184797505
+    second: Smilodon morte_6
+  - first:
+      213: -3044586936168236793
+    second: Smilodon morte_7
+  - first:
+      213: 1899820933372370094
+    second: Smilodon morte_8
+  - first:
+      213: -6065237053558935213
+    second: Smilodon morte_9
+  - first:
+      213: 3331997681282830330
+    second: Smilodon morte_10
+  - first:
+      213: -3941867839780134722
+    second: Smilodon morte_11
+  - first:
+      213: 7752496430122620400
+    second: Smilodon morte_12
+  - first:
+      213: -983702868018963235
+    second: Smilodon morte_13
+  - first:
+      213: -6731179115841725027
+    second: Smilodon morte_14
+  - first:
+      213: -2853517282798337449
+    second: Smilodon morte_15
+  - first:
+      213: 7325426363119133754
+    second: Smilodon morte_16
+  - first:
+      213: -7616221586053857562
+    second: Smilodon morte_17
+  - first:
+      213: -22708705847760629
+    second: Smilodon morte_18
+  - first:
+      213: -5047445687839279778
+    second: Smilodon morte_19
+  - first:
+      213: 7137721922995809956
+    second: Smilodon morte_20
+  - first:
+      213: -3965505178726058150
+    second: Smilodon morte_21
+  - first:
+      213: 4647247130157783490
+    second: Smilodon morte_22
+  - first:
+      213: 2434807280456396512
+    second: Smilodon morte_23
+  - first:
+      213: 6675391644822556682
+    second: Smilodon morte_24
+  - first:
+      213: -10469600281455375
+    second: Smilodon morte_25
+  - first:
+      213: 7497488175039829028
+    second: Smilodon morte_26
+  - first:
+      213: -1429215105169394331
+    second: Smilodon morte_27
+  - first:
+      213: -2280120205829113142
+    second: Smilodon morte_28
+  - first:
+      213: 7185749050074807318
+    second: Smilodon morte_29
+  - first:
+      213: 127653058720049682
+    second: Smilodon morte_30
+  - first:
+      213: 1846377580890001763
+    second: Smilodon morte_31
+  - first:
+      213: -6652593867221819439
+    second: Smilodon morte_32
+  - first:
+      213: -9161451112803940314
+    second: Smilodon morte_33
+  - first:
+      213: -2997421478862361306
+    second: Smilodon morte_34
+  - first:
+      213: -6711414796797570979
+    second: Smilodon morte_35
+  - first:
+      213: -685617607466213895
+    second: Smilodon morte_36
+  - first:
+      213: 6256287366373518309
+    second: Smilodon morte_37
+  - first:
+      213: 4394213276236644050
+    second: Smilodon morte_38
+  - first:
+      213: -1214520201071211982
+    second: Smilodon morte_39
+  - first:
+      213: 4011029109212015653
+    second: Smilodon morte_40
+  - first:
+      213: 1081087410654047421
+    second: Smilodon morte_41
+  - first:
+      213: 4729753926630892866
+    second: Smilodon morte_42
+  - first:
+      213: 3255575575847228696
+    second: Smilodon morte_43
+  - first:
+      213: -2883299334187359945
+    second: Smilodon morte_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smilodon morte_0
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 359
+        width: 2922
+        height: 2154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b97d90fc23dbd590800000000000000
+      internalID: -7648287352189781579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_1
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 1967
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f2878dc0b9f1a70800000000000000
+      internalID: 8799922676378906487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_2
+      rect:
+        serializedVersion: 2
+        x: 5831
+        y: 1983
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d25f931b999d0b0800000000000000
+      internalID: -5703358466627392206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_3
+      rect:
+        serializedVersion: 2
+        x: 6087
+        y: 1999
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acceb62e8fccb4630800000000000000
+      internalID: 3912446070624087242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_4
+      rect:
+        serializedVersion: 2
+        x: 6223
+        y: 1743
+        width: 90
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ef9dbecd5581d0800000000000000
+      internalID: -3349167605354076188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_5
+      rect:
+        serializedVersion: 2
+        x: 6343
+        y: 1919
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41896f9046a2bedf0800000000000000
+      internalID: -149979553434527724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_6
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 1847
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb840e68bbccccaf0800000000000000
+      internalID: -374699563184797505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_7
+      rect:
+        serializedVersion: 2
+        x: 5855
+        y: 1735
+        width: 162
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b5edff447fb5d0800000000000000
+      internalID: -3044586936168236793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_8
+      rect:
+        serializedVersion: 2
+        x: 9847
+        y: 1823
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacd28eb2158d5a10800000000000000
+      internalID: 1899820933372370094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_9
+      rect:
+        serializedVersion: 2
+        x: 10167
+        y: 1791
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3513518e803f3dba0800000000000000
+      internalID: -6065237053558935213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_10
+      rect:
+        serializedVersion: 2
+        x: 10479
+        y: 1807
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affc949cc32ad3e20800000000000000
+      internalID: 3331997681282830330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_11
+      rect:
+        serializedVersion: 2
+        x: 5639
+        y: 1631
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb06e5aa51cab49c0800000000000000
+      internalID: -3941867839780134722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_12
+      rect:
+        serializedVersion: 2
+        x: 6103
+        y: 1615
+        width: 122
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f551ffbd66669b60800000000000000
+      internalID: 7752496430122620400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_13
+      rect:
+        serializedVersion: 2
+        x: 6663
+        y: 1607
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc5233147f2952f0800000000000000
+      internalID: -983702868018963235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_14
+      rect:
+        serializedVersion: 2
+        x: 6919
+        y: 1623
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dd9b8e14c0692a0800000000000000
+      internalID: -6731179115841725027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_15
+      rect:
+        serializedVersion: 2
+        x: 9767
+        y: 1647
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7520e5e56254668d0800000000000000
+      internalID: -2853517282798337449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_16
+      rect:
+        serializedVersion: 2
+        x: 9967
+        y: 1583
+        width: 146
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a346ff9277429a560800000000000000
+      internalID: 7325426363119133754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_17
+      rect:
+        serializedVersion: 2
+        x: 10151
+        y: 1575
+        width: 122
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eef898e1debd4690800000000000000
+      internalID: -7616221586053857562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_18
+      rect:
+        serializedVersion: 2
+        x: 10431
+        y: 1599
+        width: 90
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09a2a66d825faff0800000000000000
+      internalID: -22708705847760629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_19
+      rect:
+        serializedVersion: 2
+        x: 6415
+        y: 1503
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e553341b3eed3f9b0800000000000000
+      internalID: -5047445687839279778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_20
+      rect:
+        serializedVersion: 2
+        x: 6495
+        y: 1591
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeeead85484e0360800000000000000
+      internalID: 7137721922995809956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_21
+      rect:
+        serializedVersion: 2
+        x: 9959
+        y: 1519
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57bf03dc02b7f8c0800000000000000
+      internalID: -3965505178726058150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_22
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 1375
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9128884a65e7040800000000000000
+      internalID: 4647247130157783490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_23
+      rect:
+        serializedVersion: 2
+        x: 5583
+        y: 1343
+        width: 90
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee6328425c2ac120800000000000000
+      internalID: 2434807280456396512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_24
+      rect:
+        serializedVersion: 2
+        x: 6063
+        y: 1455
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00524e4551c3ac50800000000000000
+      internalID: 6675391644822556682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_25
+      rect:
+        serializedVersion: 2
+        x: 6207
+        y: 1359
+        width: 122
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4984a34fdcadff0800000000000000
+      internalID: -10469600281455375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_26
+      rect:
+        serializedVersion: 2
+        x: 6495
+        y: 1431
+        width: 202
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424d0f495cd6c0860800000000000000
+      internalID: 7497488175039829028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_27
+      rect:
+        serializedVersion: 2
+        x: 10615
+        y: 1359
+        width: 258
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56571c42f686a2ce0800000000000000
+      internalID: -1429215105169394331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_28
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 1335
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7d5ed0c26b50e0800000000000000
+      internalID: -2280120205829113142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_29
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 1255
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c3fc670b8e8b360800000000000000
+      internalID: 7185749050074807318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_30
+      rect:
+        serializedVersion: 2
+        x: 9815
+        y: 1175
+        width: 90
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a2083d7c385c100800000000000000
+      internalID: 127653058720049682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_31
+      rect:
+        serializedVersion: 2
+        x: 10103
+        y: 1295
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361913690a6af9910800000000000000
+      internalID: 1846377580890001763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_32
+      rect:
+        serializedVersion: 2
+        x: 10255
+        y: 1351
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df1d4def1d3da3a0800000000000000
+      internalID: -6652593867221819439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_33
+      rect:
+        serializedVersion: 2
+        x: 10287
+        y: 1207
+        width: 122
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628c63a90ccfbd080800000000000000
+      internalID: -9161451112803940314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_34
+      rect:
+        serializedVersion: 2
+        x: 10871
+        y: 1247
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d6846cb050766d0800000000000000
+      internalID: -2997421478862361306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_35
+      rect:
+        serializedVersion: 2
+        x: 6335
+        y: 1295
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5094980dc34cd2a0800000000000000
+      internalID: -6711414796797570979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_36
+      rect:
+        serializedVersion: 2
+        x: 10615
+        y: 1231
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd19372b623c76f0800000000000000
+      internalID: -685617607466213895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_37
+      rect:
+        serializedVersion: 2
+        x: 10447
+        y: 1215
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb2575663cc2d650800000000000000
+      internalID: 6256287366373518309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_38
+      rect:
+        serializedVersion: 2
+        x: 9583
+        y: 1079
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2def36571b16bfc30800000000000000
+      internalID: 4394213276236644050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_39
+      rect:
+        serializedVersion: 2
+        x: 10279
+        y: 1143
+        width: 106
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a4d9adf48252fe0800000000000000
+      internalID: -1214520201071211982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_40
+      rect:
+        serializedVersion: 2
+        x: 6135
+        y: 999
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c655639b90aa730800000000000000
+      internalID: 4011029109212015653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_41
+      rect:
+        serializedVersion: 2
+        x: 6351
+        y: 1039
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc6e2ba54bc00f00800000000000000
+      internalID: 1081087410654047421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_42
+      rect:
+        serializedVersion: 2
+        x: 10431
+        y: 959
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245e7df032673a140800000000000000
+      internalID: 4729753926630892866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_43
+      rect:
+        serializedVersion: 2
+        x: 9927
+        y: 823
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815dfc9ccb02e2d20800000000000000
+      internalID: 3255575575847228696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smilodon morte_44
+      rect:
+        serializedVersion: 2
+        x: 10607
+        y: 823
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73164ac28867cf7d0800000000000000
+      internalID: -2883299334187359945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
