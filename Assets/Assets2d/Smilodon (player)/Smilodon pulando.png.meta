@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smilodon pulando_0: -2480241013361813596
+      Smilodon pulando_1: -4030069885223637214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

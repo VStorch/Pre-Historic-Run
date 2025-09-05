@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plataformas e Obstaculos_0: -7903508491213137414
+      Plataformas e Obstaculos_1: -2793787304821172576
+      Plataformas e Obstaculos_2: -3477570642293051943
+      Plataformas e Obstaculos_3: -1990836830749790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

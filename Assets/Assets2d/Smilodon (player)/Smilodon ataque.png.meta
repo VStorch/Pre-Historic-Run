@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smilodon ataque_0: -7150525045853621127
+      Smilodon ataque_1: -3324487720096758038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smilodon parado_0: 6683495477035094343
+      Smilodon parado_1: -8362242464738557793
+      Smilodon parado_2: -3373073646076891848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

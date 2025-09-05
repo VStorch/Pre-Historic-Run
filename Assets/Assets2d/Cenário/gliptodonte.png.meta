@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gliptodonte_0: 8439960264091642478
+      gliptodonte_1: 6930819074063265744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smilodon correndo_0: -4276997568615979426
+      Smilodon correndo_1: 5786979401491380035
+      Smilodon correndo_2: -3095152893395593035
+      Smilodon correndo_3: -1045159497396972568
+      Smilodon correndo_4: 7158346270635998494
+      Smilodon correndo_5: -3788017900985290777
+      Smilodon correndo_6: 4296292840840707456
+      Smilodon correndo_7: -4011861982461183263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

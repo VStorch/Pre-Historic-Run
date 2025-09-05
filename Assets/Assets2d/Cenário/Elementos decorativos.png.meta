@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Elementos decorativos_0: -8897963943677413003
+      Elementos decorativos_1: 6063486053084025589
+      Elementos decorativos_2: 3224398611114183161
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

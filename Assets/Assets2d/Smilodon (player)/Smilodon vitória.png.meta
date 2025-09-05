@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Smilodon vit\xF3ria_0": 3964951268889722568
+      "Smilodon vit\xF3ria_1": 8167713254516206028
+      "Smilodon vit\xF3ria_2": -7968645798385781638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
