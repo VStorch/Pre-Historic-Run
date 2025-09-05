@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Smilodon correndo_0
+      name: Correndo1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 1069
-        width: 368
-        height: 267
+        x: 75
+        y: 1070
+        width: 366
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,13 +142,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_1
+      name: Correndo2
       rect:
         serializedVersion: 2
-        x: 590
-        y: 1070
-        width: 364
-        height: 236
+        x: 591
+        y: 1071
+        width: 362
+        height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,13 +163,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_2
+      name: Correndo3
       rect:
         serializedVersion: 2
-        x: 1098
-        y: 1070
-        width: 368
-        height: 241
+        x: 1099
+        y: 1071
+        width: 366
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,13 +184,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_3
+      name: Correndo4
       rect:
         serializedVersion: 2
-        x: 71
-        y: 557
-        width: 371
-        height: 237
+        x: 72
+        y: 558
+        width: 369
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,13 +205,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_4
+      name: Correndo5
       rect:
         serializedVersion: 2
-        x: 586
-        y: 557
-        width: 368
-        height: 267
+        x: 587
+        y: 558
+        width: 366
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,13 +226,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_5
+      name: Correndo6
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 558
-        width: 366
-        height: 236
+        x: 1101
+        y: 559
+        width: 364
+        height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,13 +247,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_6
+      name: Correndo7
       rect:
         serializedVersion: 2
-        x: 74
-        y: 46
-        width: 368
-        height: 241
+        x: 75
+        y: 47
+        width: 366
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,13 +268,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smilodon correndo_7
+      name: Correndo8
       rect:
         serializedVersion: 2
-        x: 583
-        y: 45
-        width: 371
-        height: 237
+        x: 584
+        y: 46
+        width: 369
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,7 +291,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de230fe521d15e246abb51119293fe87
     internalID: 0
     vertices: []
     indices: 
@@ -299,14 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Smilodon correndo_0: -4276997568615979426
-      Smilodon correndo_1: 5786979401491380035
-      Smilodon correndo_2: -3095152893395593035
-      Smilodon correndo_3: -1045159497396972568
-      Smilodon correndo_4: 7158346270635998494
-      Smilodon correndo_5: -3788017900985290777
-      Smilodon correndo_6: 4296292840840707456
-      Smilodon correndo_7: -4011861982461183263
+      Correndo1: -4276997568615979426
+      Correndo2: 5786979401491380035
+      Correndo3: -3095152893395593035
+      Correndo4: -1045159497396972568
+      Correndo5: 7158346270635998494
+      Correndo6: -3788017900985290777
+      Correndo7: 4296292840840707456
+      Correndo8: -4011861982461183263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
