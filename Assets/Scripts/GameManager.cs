@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public GameObject[] spawnPoints;
     public float timer;
     public float timeBetweenSpawns;
+
+    public float speedMultiplier;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        speedMultiplier += Time.deltaTime * 0.1f;
+
         timer += Time.deltaTime;
 
         if (timer > timeBetweenSpawns)

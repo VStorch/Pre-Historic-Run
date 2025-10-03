@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 1211734020}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,6 +558,7 @@ MonoBehaviour:
   - {fileID: 595476883}
   timer: 0
   timeBetweenSpawns: 3
+  speedMultiplier: 0
 --- !u!4 &1211734021
 Transform:
   m_ObjectHideFlags: 0
