@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject spawnObject;
+    public GameObject[] spawnObject;
     public GameObject[] spawnPoints;
     public float timer;
     public float timeBetweenSpawns;
@@ -35,8 +35,10 @@ public class GameManager : MonoBehaviour
         if (timer > timeBetweenSpawns)
         {
             timer = 0;
-            int randNum = Random.Range(0, 3);
-            Instantiate(spawnObject, spawnPoints[randNum].transform.position, Quaternion.identity);
+            for (int i = 0; i < spawnObject.Length; i++)
+            {
+                Instantiate(spawnObject[i], spawnPoints[i].transform.position, Quaternion.identity);
+            }
         }
     }
 }
