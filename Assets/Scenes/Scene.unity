@@ -432,8 +432,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69829fc161c2e0b4c94cb20c4d567888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnObject:
+  groundEnemies:
   - {fileID: 2726626193201261906, guid: 8c68711a37befe34681b505ab1b00e95, type: 3}
+  flyingEnemies:
+  - {fileID: 993227243705745550, guid: af8c10f9d89e76f458aa2fc30feb5abb, type: 3}
   spawnPoints:
   - {fileID: 192696189}
   - {fileID: 1852063802}
@@ -441,7 +443,7 @@ MonoBehaviour:
   timer: 0
   timeBetweenSpawns: 3
   playerAnimator: {fileID: 1917405558351740942, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
-  speedMultiplier: 0
+  speedMultiplier: 2
   distanceUI: {fileID: 169062803}
 --- !u!4 &1211734021
 Transform:
