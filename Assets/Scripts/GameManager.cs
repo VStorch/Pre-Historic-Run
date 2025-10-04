@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public float timer;
     public float timeBetweenSpawns;
 
+    public Animator playerAnimator;
     public float speedMultiplier;
     private float distance;
 
@@ -24,6 +25,8 @@ public class GameManager : MonoBehaviour
         distanceUI.text = "Distance: " + distance.ToString("F2");
 
         speedMultiplier += Time.deltaTime * 0.1f;
+
+        playerAnimator.speed = (float)(1 + speedMultiplier * 0.1);
 
         timer += Time.deltaTime;
 
