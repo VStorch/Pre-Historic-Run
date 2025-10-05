@@ -223,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 192696189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.638, y: -1.548, z: 0.053171296}
+  m_LocalPosition: {x: 11.638, y: -1.8275, z: 0.053171296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -241,13 +241,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: LongPlatform Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7078068344603882836, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078068344603882836, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -543839305
+      objectReference: {fileID: 0}
     - target: {fileID: 7732297709296813314, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0868
       objectReference: {fileID: 0}
     - target: {fileID: 7732297709296813314, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3
+      value: -2.5795
       objectReference: {fileID: 0}
     - target: {fileID: 7732297709296813314, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -311,7 +319,7 @@ Transform:
   m_GameObject: {fileID: 595476883}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.638, y: 0.74, z: 0.053171296}
+  m_LocalPosition: {x: 11.638, y: 0.4605, z: 0.053171296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -406,8 +414,8 @@ GameObject:
   m_Component:
   - component: {fileID: 980591732}
   - component: {fileID: 980591731}
-  m_Layer: 0
-  m_Name: "C\xE9u_0"
+  m_Layer: 1
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,8 +461,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1841580791
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -2920686388702877278, guid: decefbe78fac49d4b9ad88b53d9bb6a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -476,8 +484,8 @@ Transform:
   m_GameObject: {fileID: 980591730}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.03, y: 5.13, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.1846, y: 1.41, z: 0}
+  m_LocalScale: {x: 7.8994603, y: 2.2278893, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -873,7 +881,7 @@ Transform:
   m_GameObject: {fileID: 1852063802}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.638, y: -0.46, z: 0.053171296}
+  m_LocalPosition: {x: 11.638, y: -0.73950005, z: 0.053171296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -905,7 +913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7771123934296743266, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.14
+      value: -1.4195
       objectReference: {fileID: 0}
     - target: {fileID: 7771123934296743266, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -938,6 +946,14 @@ PrefabInstance:
     - target: {fileID: 7771123934296743266, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816974065982000220, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816974065982000220, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 151705915
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

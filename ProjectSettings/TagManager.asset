@@ -44,3 +44,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 2453386505
+    locked: 0
+  - name: Big Mountain
+    uniqueID: 3255261851
+    locked: 0
+  - name: Mountains
+    uniqueID: 2243372933
+    locked: 0
+  - name: Colins
+    uniqueID: 227872761
+    locked: 0
+  - name: Objects
+    uniqueID: 3751127991
+    locked: 0
+  - name: Collectibles
+    uniqueID: 3579466989
+    locked: 0
+  - name: Enemies
+    uniqueID: 587290685
+    locked: 0
+  - name: Player
+    uniqueID: 151705915
+    locked: 0
