@@ -21,15 +21,25 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public Text distanceUI;
+    public Text highScoreUI;
+    private float highScore;
 
     void Start()
     {
+        highScore = PlayerPrefs.GetFloat("highScore", 0);
+        highScoreUI.text = "High Score: " + highScore.ToString("F2");
+
         timeBetweenSpawns = Random.Range(1f, 3f);
     }
 
     void Update()
     {
         distanceUI.text = "Distance: " + distance.ToString("F2");
+        if (distance > highScore)
+        {
+            highScore = distance;
+            PlayerPrefs.SetFloat("highScore", highScore);
+        }
 
         speedMultiplier += Time.deltaTime * 0.1f;
         playerAnimator.speed = (float)(1 + speedMultiplier * 0.1);
