@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smilodon agachando_0: -9095679888199950775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

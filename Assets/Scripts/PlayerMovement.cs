@@ -23,6 +23,11 @@ public class PlayerMoviment : MonoBehaviour
             rb.AddForce(Vector2.up * jump);
             anim.SetTrigger("Jump");
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            anim.SetTrigger("Slide");
+        }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
