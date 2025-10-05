@@ -7,6 +7,7 @@ public class PlayerMoviment : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private bool isGrounded;
+    private bool isDead;
 
     private void Awake()
     {
@@ -16,6 +17,8 @@ public class PlayerMoviment : MonoBehaviour
 
     private void Update()
     {
+        if (isDead) return;
+
         anim.SetBool("isGrounded", isGrounded);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -48,7 +51,20 @@ public class PlayerMoviment : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(0);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        isDead = true;
+        anim.SetTrigger("Dead");
+        rb.velocity = Vector2.zero;
+        Invoke(nameof(RestartLevel), 0.4f);
+    }
+
+    private void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
