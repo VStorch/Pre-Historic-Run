@@ -59,12 +59,15 @@ TagManager:
   - name: Objects
     uniqueID: 3751127991
     locked: 0
-  - name: Collectibles
+  - name: Ground
     uniqueID: 3579466989
     locked: 0
-  - name: Enemies
+  - name: Collectibles
     uniqueID: 587290685
     locked: 0
-  - name: Player
+  - name: Enemies
     uniqueID: 151705915
+    locked: 0
+  - name: Player
+    uniqueID: 3787216161
     locked: 0

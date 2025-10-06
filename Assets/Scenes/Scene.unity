@@ -673,11 +673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7078068344603882836, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_SortingLayer
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7078068344603882836, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_SortingLayerID
-      value: -543839305
+      value: -715500307
       objectReference: {fileID: 0}
     - target: {fileID: 7732297709296813314, guid: 1b52adf1cd677464084d607f9bf526b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1495,6 +1495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundEnemies:
   - {fileID: 2726626193201261906, guid: 8c68711a37befe34681b505ab1b00e95, type: 3}
+  - {fileID: 5419631206581745640, guid: 96fed9c44c5490944a6a4ca57df747d9, type: 3}
   flyingEnemies:
   - {fileID: 993227243705745550, guid: af8c10f9d89e76f458aa2fc30feb5abb, type: 3}
   spawnPoints:
@@ -2333,11 +2334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7816974065982000220, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
       propertyPath: m_SortingLayer
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7816974065982000220, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
       propertyPath: m_SortingLayerID
-      value: 151705915
+      value: -507751135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
