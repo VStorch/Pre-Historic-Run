@@ -1,14 +1,19 @@
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
+
     [Header("Spawn Objects")]
     public GameObject[] groundEnemies;
     public GameObject[] flyingEnemies;
+    public GameObject collectible;
 
     [Header("Spawn Points")]
     public GameObject[] spawnPoints;
+    public Transform collectibleSpawnPoint;
 
     [Header("Spawn Time")]
     public float timer;
@@ -22,19 +27,41 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public Text distanceUI;
     public Text highScoreUI;
+    public Text collectibleUI;
+
     private float highScore;
+    private int pacas;
+
+    private float collectibleTimer;
+    private float collectibleSpawnTime;
+
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
 
     void Start()
     {
         highScore = PlayerPrefs.GetFloat("highScore", 0);
+        pacas = PlayerPrefs.GetInt("pacas", 0);
+
         highScoreUI.text = "High Score: " + highScore.ToString("F2");
+        collectibleUI.text = "Pacas: " + pacas;
 
         timeBetweenSpawns = Random.Range(1f, 3f);
+        collectibleSpawnTime = Random.Range(4f, 8f);
     }
 
     void Update()
     {
         distanceUI.text = "Distance: " + distance.ToString("F2");
+        collectibleUI.text = "Pacas: " + pacas;
+
         if (distance > highScore)
         {
             highScore = distance;
@@ -66,8 +93,21 @@ public class GameManager : MonoBehaviour
                 enemyToSpawn = flyingEnemies[randomFlying];
             }
 
-                Instantiate(enemyToSpawn, spawnPoints[randomPoint].transform.position, Quaternion.identity);
-
+            Instantiate(enemyToSpawn, spawnPoints[randomPoint].transform.position, Quaternion.identity);
         }
+
+        collectibleTimer += Time.deltaTime;
+        if (collectibleTimer > collectibleSpawnTime)
+        {
+            collectibleTimer = 0;
+            collectibleSpawnTime = Random.Range(4f, 8f);
+            Instantiate(collectible, collectibleSpawnPoint.position, Quaternion.identity);
+        }
+    }
+    public void AddPaca()
+    {
+        pacas++;
+        PlayerPrefs.SetInt("pacas", pacas);
+        collectibleUI.text = "Pacas: " + pacas;
     }
 }

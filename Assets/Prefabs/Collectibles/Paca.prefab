@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5582990394062413698}
   - component: {fileID: 2054500571410362286}
   - component: {fileID: 8502951729188889281}
-  - component: {fileID: 1509855612046386562}
   - component: {fileID: 628599215196495515}
+  - component: {fileID: 7661832399010670684}
   m_Layer: 0
   m_Name: Paca
   m_TagString: Collectible
@@ -163,19 +163,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &1509855612046386562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2805010889089941906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81f3f83723a36c0469e6b9bd21f0e046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
 --- !u!95 &628599215196495515
 Animator:
   serializedVersion: 7
@@ -198,3 +185,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7661832399010670684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805010889089941906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec90854b14ad7a545bf3dbed495fa5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMultiplier: 2
