@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
             }
 
                 Instantiate(enemyToSpawn, spawnPoints[randomPoint].transform.position, Quaternion.identity);
-            
+
         }
     }
 }

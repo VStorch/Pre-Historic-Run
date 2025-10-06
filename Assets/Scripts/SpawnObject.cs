@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObjectScript : MonoBehaviour
+public class SpawnObject : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed;
