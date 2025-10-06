@@ -3,7 +3,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
     public float speedMultiplier;
-    public GameManager gm;
+    private GameManager gm;
 
     private Transform[] backgrounds;
     private float backgroundWidth;
