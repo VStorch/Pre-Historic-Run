@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
         if (collectibleTimer > collectibleSpawnTime)
         {
             collectibleTimer = 0;
-            collectibleSpawnTime = Random.Range(4f, 8f);
+            collectibleSpawnTime = Random.Range(2f, 6f);
             Instantiate(collectible, collectibleSpawnPoint.position, Quaternion.identity);
         }
 

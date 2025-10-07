@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8963695480183520496}
   - component: {fileID: 7940969635493456439}
   - component: {fileID: 2341551104988897233}
+  - component: {fileID: 8986803951566889051}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -507751135
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -4276997568615979426, guid: 8594eab10957e0f4ebdc0cea82a3e275, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -197,4 +198,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70bb6900eff60f4fbf7523bdbdfde30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump: 400
+  jump: 470
+--- !u!114 &8986803951566889051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656831845917630315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67216c1b4df103b41900dac56676ca80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnetParticles: {fileID: 4286900947398026021, guid: d79b0e3d0ef4b8441b56780b87f42338, type: 3}

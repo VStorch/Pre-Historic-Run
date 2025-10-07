@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6517766902150615178}
   - component: {fileID: 6343941550508052640}
   - component: {fileID: 5006765382546123443}
+  - component: {fileID: 1533153668878359016}
   m_Layer: 0
   m_Name: MangoPowerUp
   m_TagString: Untagged
@@ -136,3 +137,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b0f7e67c23d84bb9c96fb55c92e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1533153668878359016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918630916680658812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec90854b14ad7a545bf3dbed495fa5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMultiplier: 3
