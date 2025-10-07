@@ -346,6 +346,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &404350883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 404350884}
+  m_Layer: 0
+  m_Name: SpawnPointPU
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404350884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404350883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.29, y: -2.07, z: -0.064621255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431863247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,7 +1645,12 @@ MonoBehaviour:
   collectibleSpawnPoint: {fileID: 330904490}
   timer: 0
   timeBetweenSpawns: 3
+  magnetPowerUp: {fileID: 7918630916680658812, guid: ca42792668012ff49915ca8132cd8b37, type: 3}
+  magnetSpawnPoint: {fileID: 404350884}
+  isMagnetActive: 0
+  magnetDuration: 5
   playerAnimator: {fileID: 1917405558351740942, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
+  playerTransform: {fileID: 0}
   speedMultiplier: 2
   distanceUI: {fileID: 169062803}
   highScoreUI: {fileID: 744111383}
@@ -2477,3 +2513,4 @@ SceneRoots:
   - {fileID: 1685645082}
   - {fileID: 575026819}
   - {fileID: 330904490}
+  - {fileID: 404350884}

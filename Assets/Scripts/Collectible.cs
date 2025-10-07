@@ -14,12 +14,18 @@ public class Collectible : MonoBehaviour
     {
         float speed = gm.speedMultiplier * speedMultiplier;
 
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
-
-        if (transform.position.x < -Camera.main.orthographicSize * Camera.main.aspect -2f)
+        if (GameManager.Instance.isMagnetActive)
         {
-            Destroy(gameObject);
+            Vector3 direction = (gm.playerTransform.position - transform.position).normalized;
+            transform.Translate(direction * speed * Time.deltaTime);
         }
+        else
+        {
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
+        }
+
+        if (transform.position.x < -Camera.main.orthographicSize * Camera.main.aspect - 2f)
+            Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
