@@ -60,11 +60,6 @@ public class PlayerMoviment : MonoBehaviour
         isDead = true;
         anim.SetTrigger("Dead");
         rb.velocity = Vector2.zero;
-        Invoke(nameof(RestartLevel), 0.4f);
-    }
-
-    private void RestartLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameManager.Instance.GameOver();
     }
 }

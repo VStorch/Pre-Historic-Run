@@ -1,5 +1,7 @@
 using JetBrains.Annotations;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -39,9 +41,11 @@ public class GameManager : MonoBehaviour
     public Text distanceUI;
     public Text highScoreUI;
     public Text collectibleUI;
+    public GameObject gameOverPanel;
 
     private float highScore;
     private int pacas;
+    private bool isGameOver = false;
 
     private float collectibleTimer;
     private float collectibleSpawnTime;
@@ -67,10 +71,14 @@ public class GameManager : MonoBehaviour
         timeBetweenSpawns = Random.Range(1f, 3f);
         collectibleSpawnTime = Random.Range(4f, 8f);
         magnetSpawnInterval = Random.Range(10f, 20f);
+
+        gameOverPanel.SetActive(false);
     }
 
     void Update()
     {
+        if (isGameOver) return;
+
         // Score
 
         distanceUI.text = "Distance: " + distance.ToString("F2");
@@ -139,6 +147,29 @@ public class GameManager : MonoBehaviour
                 isMagnetActive = false;
         }
     }
+
+    public void GameOver()
+    {
+        if (!isGameOver)
+        {
+            StartCoroutine(GameOverRoutine());
+        }
+    }
+
+    private IEnumerator GameOverRoutine()
+    {
+        isGameOver = true;
+        yield return new WaitForSeconds(0.7f);
+        gameOverPanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     public void AddPaca()
     {
         pacas++;
