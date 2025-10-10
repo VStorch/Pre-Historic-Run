@@ -1137,7 +1137,7 @@ MonoBehaviour:
   - {fileID: 886540893}
   - {fileID: 1977443206}
   - {fileID: 2111255961}
-  snowsParticles: {fileID: 0}
+  snowsParticles: {fileID: 651435567}
   themeDuration: 30
 --- !u!4 &558993611
 Transform:
@@ -1405,6 +1405,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 833566468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &651435567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7914648763725743075, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+  m_PrefabInstance: {fileID: 7727389183545572391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &744111381
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,6 +3678,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7771123934296743266, guid: f7006cd208d20b043b6500bae7547a9d, type: 3}
   m_PrefabInstance: {fileID: 388283821492981223}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7727389183545572391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7914648763725743075, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_Name
+      value: SnowGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8176328033448587722, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e81fe6d8e180c4f4dbff536492307cc1, type: 3}
 --- !u!1001 &7760487258649332279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3758,3 +3820,4 @@ SceneRoots:
   - {fileID: 291241669}
   - {fileID: 833566468}
   - {fileID: 2111255963}
+  - {fileID: 7727389183545572391}
