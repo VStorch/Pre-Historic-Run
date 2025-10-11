@@ -21,17 +21,56 @@ public class PlayerMoviment : MonoBehaviour
 
         anim.SetBool("isGrounded", isGrounded);
 
+        // PC
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(Vector2.up * jump);
-            anim.SetTrigger("Jump");
+            Jump();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            anim.SetTrigger("Slide");
+            Slide();
+        }
+#endif
+        // Mobile
+#if UNITY_ANDROID || UNITY_IOS
+        HandleTouchInput();
+#endif
+    }
+
+    private void HandleTouchInput()
+    {
+        if (Input.touchCount == 0) return;
+
+        Touch touch = Input.GetTouch(0);
+
+        if (touch.phase == TouchPhase.Began)
+        {
+            if (touch.position.y > Screen.height / 2f && isGrounded)
+            {
+                Jump();
+            }
+            else
+            {
+                Slide();
+            }
         }
     }
+
+    private void Jump()
+    {
+        rb.AddForce(Vector2.up * jump);
+        anim.SetTrigger("Jump");
+    }
+
+    private void Slide()
+    {
+        anim.SetTrigger("Slide");
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
