@@ -1,76 +1,79 @@
 # 🦴 Pre-Historic Run
 
-**Pre-Historic Run** é um jogo 2D do tipo *Endless Runner*, desenvolvido na Unity, onde você controla um tigre-dentes-de-sabre correndo pelas paisagens da América do Sul pré-histórica. Desvie de obstáculos, colete pacas e tente bater sua maior distância!
+🌐 [English](README.md) | [Português](README.pt.md)
+
+
+**Pre-Historic Run** is a 2D Endless Runner game developed in Unity, where you control a saber-toothed tiger sprinting across prehistoric South American landscapes. Dodge obstacles, collect pacas, and try to beat your high score!
 
 ## 🎮 Gameplay
 
-Você joga como um tigre-dentes-de-sabre em constante movimento. O objetivo é sobreviver o maior tempo possível enquanto o ambiente transita entre verão e inverno.
+You play as a constantly running saber-toothed tiger. The goal is to survive as long as possible while the environment shifts between summer and winter.
 
-### 🧱 Obstáculos
-- Pedras
-- Troncos
-- Teratornis (ave pré-histórica que ataca pelo ar)
+### Obstacles
+- Rocks
+- Tree logs
+- Teratornis (a prehistoric bird that attacks from above)
 
-### 🪙 Colecionáveis
-- **Pacas**: funcionam como moedas que o jogador pode coletar ao longo do caminho.
+### Collectibles
+- **Pacas**: work like coins the player can collect along the way.
 
-### 📊 Sistema de Pontuação
-- **Distância atual**: quanto o jogador percorreu na partida atual.
-- **Recorde**: maior distância já alcançada.
+### Score System
+- **Current distance**: how far the player has run in the current session.
+- **High Score**: the longest distance you've reached so far.
 
-### 🌦️ Ambiente
-- O jogo alterna entre verão e inverno ao longo do tempo.
-- Efeito Paralaxe no cenário.
+### Environment
+- The game alternates between summer and winter over time.
+- Parallax effect in the background scenery.
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Technologies Used
 
 - **Engine**: Unity
-- **Plataformas-alvo**: Android, Windows
-- **Linguagem**: C#
+- **Target Platforms**: Android, Windows
+- **Language**: C#
 
 ---
 
-## 🚧 Status: Em desenvolvimento
+## Status: In Development
 
-Este jogo ainda está em desenvolvimento. Algumas funcionalidades futuras planejadas:
+This game is still under development. Some planned future features include:
 
-- Músicas e efeitos sonoros
-- Loja em que as pacas serão usadas para comprar outros animais jogáveis
-
----
-
-## 📸 Capturas de Tela
-
+- Music and sound effects
+- In-game shop where pacas can be used to unlock other playable animals
 
 ---
 
-## 🎨 Assets e Autoria
+## Screenshots
 
-Todos os sprites, animações e elementos visuais presentes no jogo **foram criados por mim** especialmente para este projeto. Isso inclui:
-
-- Personagem principal (tigre-dentes-de-sabre)
-- Obstáculos (pedras, troncos, Teratornis)
-- Cenários e transições de estação (verão/inverno)
-- Interface e ícones (placar, pacas)
 
 ---
 
-## Como Rodar o Projeto
+## Assets and Original Work
 
-> **Pré-requisitos**:
-> - Unity (versão usada: 2023.2.19f1)
+All sprites, animations, and visual elements in this game **were created by me** for this project. This includes:
+
+- Main character (saber-toothed tiger)
+- Obstacles (rocks, logs, Teratornis)
+- Environments and seasonal transitions (summer/winter)
+- UI and icons (scoreboard, pacas)
+
+---
+
+## How to Run the Project
+
+> **Requirements:**:
+> - Unity (version used: 2023.2.19f1)
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/VStorch/Pre-Historic-Run.git
 
-# Abra o projeto na Unity
+# Open the project in Unity
 
 ```
 
 ---
 
-## Autoria
+## Author
 
-Desenvolvido por Vinícius Storch.
+Developed by Vinícius Storch.
