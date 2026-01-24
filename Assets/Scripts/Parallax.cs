@@ -36,7 +36,9 @@ public class Parallax : MonoBehaviour
         Transform last = backgrounds[backgrounds.Length - 1];
 
         float halfWidth = backgroundWidth / 2f;
-        if (first.position.x + halfWidth < -Camera.main.orthographicSize * Camera.main.aspect)
+        float leftBound = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
+
+        if (first.position.x + halfWidth < leftBound)
         {
             Vector3 pos = first.position;
             pos.x = last.position.x + backgroundWidth;
