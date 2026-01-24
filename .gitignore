@@ -56,3 +56,4 @@ desktop.ini
 # --- Others ---
 .env
 .vsconfig
+.utmp/
