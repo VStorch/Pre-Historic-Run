@@ -4,10 +4,12 @@ public class Collectible : MonoBehaviour
 {
     public float speedMultiplier = 3f;
     private GameManager gm;
+    private Camera cam;
 
     void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();    
+        gm = GameManager.Instance; 
+        cam = Camera.main;
     }
 
     void Update()
@@ -24,13 +26,13 @@ public class Collectible : MonoBehaviour
             transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
 
-        if (transform.position.x < -Camera.main.orthographicSize * Camera.main.aspect - 2f)
+        if (transform.position.x < -cam.orthographicSize * cam.aspect - 2f)
             Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag(Tags.Player))
         {
             GameManager.Instance.AddPaca();
             Destroy(gameObject);

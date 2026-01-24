@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMoviment : MonoBehaviour
 {
@@ -73,14 +72,14 @@ public class PlayerMoviment : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag(Tags.Ground))
         {
             isGrounded = true;
         }
     }
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag(Tags.Ground))
         {
             isGrounded = false;
         }
@@ -88,7 +87,7 @@ public class PlayerMoviment : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag(Tags.Enemy))
         {
             Die();
         }

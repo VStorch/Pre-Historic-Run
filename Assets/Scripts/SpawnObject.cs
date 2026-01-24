@@ -10,7 +10,7 @@ public class SpawnObject : MonoBehaviour
 
     void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        gm = GameManager.Instance;
         rb = GetComponent<Rigidbody2D>();
     }
 

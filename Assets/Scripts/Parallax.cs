@@ -19,7 +19,7 @@ public class Parallax : MonoBehaviour
         }
 
         backgroundWidth = backgrounds[0].GetComponent<SpriteRenderer>().bounds.size.x;
-        gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        gm = GameManager.Instance;
 
     }
 
