@@ -3,43 +3,47 @@
 🌐 [English](README.md) | [Português](README.pt.md)
 
 
-**Pre-Historic Run** is a 2D Endless Runner game developed in Unity, where you control a saber-toothed tiger sprinting across prehistoric South American landscapes. Dodge obstacles, collect pacas, and try to beat your high score!
+**Pre-Historic Run** is a 2D Endless Runner game developed in **Unity**, where you control a **saber-toothed tiger** sprinting across prehistoric South American landscapes. Dodge obstacles, collect pacas, survive seasonal changes, and try to beat your own high score.
 
-## 🎮 Gameplay
+## 🎮 Gameplay Overview
 
-You play as a constantly running saber-toothed tiger. The goal is to survive as long as possible while the environment shifts between summer and winter.
+The player controls a constantly running saber‑toothed tiger. The main objective is to survive for as long as possible while the environment dynamically alternates between summer and winter, affecting visuals and atmosphere.
 
 ### Obstacles
 - Rocks
 - Tree logs
-- Teratornis (a prehistoric bird that attacks from above)
+- Teratornis — a prehistoric bird that attacks from above
 
 ### Collectibles
-- **Pacas**: work like coins the player can collect along the way.
+- **Pacas**: function as in‑game currency (similar to coins)
 
 ### Score System
-- **Current distance**: how far the player has run in the current session.
-- **High Score**: the longest distance you've reached so far.
+- **Current Distance**: how far the player runs in the current session.
+- **High Score**: the maximum distance achieved so far.
 
 ### Environment
-- The game alternates between summer and winter over time.
-- Parallax effect in the background scenery.
+- Seasonal transitions between **summer and winter** over time.
+- Parallax background system to enhance depth and immersion.
+
 ---
 
 ## Technologies Used
 
-- **Engine**: Unity
+- **Game Engine**: Unity
+- **Unity Version**: 2023.2.19f1
+- **Programming Language**: C#
 - **Target Platforms**: Android, Windows
-- **Language**: C#
 
 ---
 
-## Status: In Development
+## Project Status
 
-This game is still under development. Some planned future features include:
+**In Development**
 
-- Music and sound effects
-- In-game shop where pacas can be used to unlock other playable animals
+Planned features include:
+
+- In-game shop where pacas can be used to unlock new playable animals.
+- Additional obstacles and gameplay balancing.
 
 ---
 
@@ -50,26 +54,45 @@ This game is still under development. Some planned future features include:
 
 ## Assets and Original Work
 
-All sprites, animations, and visual elements in this game **were created by me** for this project. This includes:
+All **sprites, animations, and visual elements** in this project were created by me, including:
 
 - Main character (saber-toothed tiger)
 - Obstacles (rocks, logs, Teratornis)
 - Environments and seasonal transitions (summer/winter)
 - UI and icons (scoreboard, pacas)
-- Original soundtrack composed by me using **BandLab**
+
+The **original soundtrack** composed by me using **BandLab**.
+
+---
+
+## Audio Credits
+
+Some sound effects were obtained from **Pixabay**, under its free license:
+
+- Tiger sound — [dffdv](https://pixabay.com/pt/users/dffdv-42492812/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=193229) (Used in music)
+- Death sound — [Ribhav Agrawal](https://pixabay.com/pt/users/ribhavagrawal-39286533/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=293295)
+- Paca / Coin — [maquistom_kalulo](https://pixabay.com/pt/users/maquistom_kalulo-48325488/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=320820)
+- Power‑Up — [freesound_community](https://pixabay.com/pt/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=104642)
+- Jump — [Sandro Lima](https://pixabay.com/pt/users/phoenix_connection_brazil-6017471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=108398)
+
+**Note:** All remaining sound effects were created by me.
 
 ---
 
 ## How to Run the Project
 
-> **Requirements:**:
-> - Unity (version used: 2023.2.19f1)
+### Requirements:
+- Unity Hub
+- Unity Editor 2023.2.19f1
+
+
+### Steps:
 
 ```bash
 # Clone the repository
 git clone https://github.com/VStorch/Pre-Historic-Run.git
 
-# Open the project in Unity
+# Open the project folder using Unity Hub
 
 ```
 

@@ -3,43 +3,47 @@
 🌐 [Português](README.pt.md) | [English](README.md)
 
 
-**Pre-Historic Run** é um jogo 2D do tipo *Endless Runner*, desenvolvido na Unity, onde você controla um tigre-dentes-de-sabre correndo pelas paisagens da América do Sul pré-histórica. Desvie de obstáculos, colete pacas e tente bater sua maior distância!
+**Pre-Historic Run** é um jogo Endless Runner 2D desenvolvido em **Unity**, onde você controla um **tigre-dentes-de-sabre** correndo por paisagens pré-históricas da América do Sul. Desvie de obstáculos, colete pacas, sobreviva às mudanças sazonais e tente bater seu recorde.
 
-## 🎮 Gameplay
+## 🎮 Visão Geral do Jogo
 
-Você joga como um tigre-dentes-de-sabre em constante movimento. O objetivo é sobreviver o maior tempo possível enquanto o ambiente transita entre verão e inverno.
+O jogador controla um tigre-dentes-de-sabre que corre constantemente. O objetivo principal é sobreviver o maior tempo possível enquanto o ambiente alterna dinamicamente entre verão e inverno, afetando o visual e a atmosfera.
 
 ### Obstáculos
 - Pedras
 - Troncos
-- Teratornis (ave pré-histórica que ataca pelo ar)
+- Teratornis — ave pré-histórica que ataca pelo ar
 
 ### Colecionáveis
-- **Pacas**: funcionam como moedas coletáveis ao longo do caminho.
+- **Pacas**: funcionam como a moeda do jogo
 
 ### Sistema de Pontuação
-- **Distância atual**: quanto o jogador percorreu na partida atual.
-- **Recorde**: maior distância já alcançada.
+- **Distância Atual**: quanto o jogador percorreu na partida atual.
+- **Recorde**: a distância máxima alcançada até o momento.
 
 ### Ambiente
-- O jogo alterna entre verão e inverno ao longo do tempo.
-- Efeito Paralaxe no cenário.
+- Transições sazonais entre **verão e inverno** ao longo do tempo.
+- Sistema de fundo em parallax para aumentar a profundidade e imersão.
+
 ---
 
 ## Tecnologias Utilizadas
 
 - **Engine**: Unity
-- **Plataformas-alvo**: Android, Windows
+- **Versão do Unity**: 2023.2.19f1
 - **Linguagem**: C#
+- **Plataformas-alvo**: Android, Windows
 
 ---
 
-## Status: Em desenvolvimento
+## Status do Projeto
 
-Este jogo ainda está em desenvolvimento. Algumas funcionalidades futuras planejadas:
+**Em Desenvolvimento**
 
-- Músicas e efeitos sonoros
-- Loja em que as pacas serão usadas para comprar outros animais jogáveis
+Recursos planejados incluem:
+
+- Loja no jogo onde as pacas podem ser usadas para desbloquear novos animais jogáveis.
+- Obstáculos adicionais e balanceamento de jogabilidade.
 
 ---
 
@@ -48,33 +52,51 @@ Este jogo ainda está em desenvolvimento. Algumas funcionalidades futuras planej
 
 ---
 
-## Assets e Autoria
+## Assets e Trabalho Original
 
-Todos os sprites, animações e elementos visuais presentes no jogo **foram criados por mim** para este projeto. Isso inclui:
+Todos os **sprites, animações e elementos visuais** neste projeto foram criados por mim, incluindo:
 
 - Personagem principal (tigre-dentes-de-sabre)
 - Obstáculos (pedras, troncos, Teratornis)
 - Cenários e transições de estação (verão/inverno)
 - Interface e ícones (placar, pacas)
-- Trilha sonora original composta por mim utilizando o **BandLab**
+
+A **trilha sonora original** foi composta por mim usando o **BandLab**.
+
+---
+
+## Créditos de Áudio
+
+Alguns efeitos sonoros foram obtidos no **Pixabay**, sob sua licença gratuita:
+
+- Som de tigre — [dffdv](https://pixabay.com/pt/users/dffdv-42492812/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=193229) (Used in music)
+- Som de morte — [Ribhav Agrawal](https://pixabay.com/pt/users/ribhavagrawal-39286533/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=293295)
+- Paca / Moeda — [maquistom_kalulo](https://pixabay.com/pt/users/maquistom_kalulo-48325488/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=320820)
+- Power‑Up — [freesound_community](https://pixabay.com/pt/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=104642)
+- Pulo — [Sandro Lima](https://pixabay.com/pt/users/phoenix_connection_brazil-6017471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=108398)
+
+**Nota:** Todos os efeitos sonoros restantes foram criados por mim.
 
 ---
 
 ## Como Rodar o Projeto
 
-> **Pré-requisitos**:
-> - Unity (versão usada: 2023.2.19f1)
+### Requisitos:
+- Unity Hub
+- Unity Editor 2023.2.19f1
+
+### Passos:
 
 ```bash
 # Clone o repositório
 git clone https://github.com/VStorch/Pre-Historic-Run.git
 
-# Abra o projeto na Unity
+# Abra a pasta do projeto usando o Unity Hub
 
 ```
 
 ---
 
-## Autoria
+## Autor
 
 Desenvolvido por Vinícius Storch.
