@@ -3707,7 +3707,7 @@ MonoBehaviour:
   musicSource: {fileID: 1910325884}
   jumpClip: {fileID: 8300000, guid: 5f4ebd2f926cc6445ac0cd0f620f6fff, type: 3}
   slideClip: {fileID: 8300000, guid: db77dc60c773f164a98960351ed2bac8, type: 3}
-  deathClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 3a41fd1ff35b32e4bb29b56941685718, type: 3}
   pacaClip: {fileID: 0}
   powerUpClip: {fileID: 0}
   backgroundMusic: {fileID: 8300000, guid: 85f068393e07a4a478cba19a783c778e, type: 3}
