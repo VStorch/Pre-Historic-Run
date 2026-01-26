@@ -3705,7 +3705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 1910325885}
   musicSource: {fileID: 1910325884}
-  jumpClip: {fileID: 0}
+  jumpClip: {fileID: 8300000, guid: 5f4ebd2f926cc6445ac0cd0f620f6fff, type: 3}
   slideClip: {fileID: 8300000, guid: db77dc60c773f164a98960351ed2bac8, type: 3}
   deathClip: {fileID: 0}
   pacaClip: {fileID: 0}
