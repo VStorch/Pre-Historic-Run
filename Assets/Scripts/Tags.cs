@@ -6,4 +6,5 @@ public static class Tags
     public const string Enemy = "Enemy";
     public const string Ground = "Ground";
     public const string GameManager = "GameManager";
+    public const string Collectible = "Collectible";
 }

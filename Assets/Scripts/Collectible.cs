@@ -34,6 +34,8 @@ public class Collectible : MonoBehaviour
     {
         if (collision.CompareTag(Tags.Player))
         {
+            if (!CompareTag(Tags.Collectible)) return;
+
             AudioManager.Instance.PlaySFX(AudioManager.Instance.pacaClip);
             GameManager.Instance.AddPaca();
             Destroy(gameObject);
