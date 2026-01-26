@@ -168,6 +168,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        AudioManager.Instance.PlayMusic();
     }
 
     public void AddPaca()
