@@ -56,6 +56,7 @@ All sprites, animations, and visual elements in this game **were created by me**
 - Obstacles (rocks, logs, Teratornis)
 - Environments and seasonal transitions (summer/winter)
 - UI and icons (scoreboard, pacas)
+- Original soundtrack composed by me using **BandLab**
 
 ---
 

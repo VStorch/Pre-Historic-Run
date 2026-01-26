@@ -56,6 +56,7 @@ Todos os sprites, animações e elementos visuais presentes no jogo **foram cria
 - Obstáculos (pedras, troncos, Teratornis)
 - Cenários e transições de estação (verão/inverno)
 - Interface e ícones (placar, pacas)
+- Trilha sonora original composta por mim utilizando o **BandLab**
 
 ---
 

@@ -149,6 +149,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        AudioManager.Instance.StopMusic();
         if (!isGameOver)
         {
             StartCoroutine(GameOverRoutine());

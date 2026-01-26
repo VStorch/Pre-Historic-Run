@@ -63,11 +63,13 @@ public class PlayerMoviment : MonoBehaviour
     {
         rb.AddForce(Vector2.up * jump);
         anim.SetTrigger("Jump");
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.jumpClip);
     }
 
     private void Slide()
     {
         anim.SetTrigger("Slide");
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.slideClip);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -98,6 +100,8 @@ public class PlayerMoviment : MonoBehaviour
         isDead = true;
         anim.SetTrigger("Dead");
         rb.velocity = Vector2.zero;
+
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.deathClip);
         GameManager.Instance.GameOver();
     }
 }

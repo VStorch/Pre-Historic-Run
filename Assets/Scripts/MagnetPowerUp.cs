@@ -6,6 +6,7 @@ public class MagnetPowerUp : MonoBehaviour
     {
         if (collision.CompareTag(Tags.Player))
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.powerUpClip);
             GameManager.Instance.ActivateMagnet();
             Destroy(gameObject);
         }
