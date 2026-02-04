@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMoviment : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PlayerMoviment : MonoBehaviour
     private void Update()
     {
         if (isDead) return;
+        if (Time.timeScale == 0f) return;
 
         anim.SetBool("isGrounded", isGrounded);
 
@@ -45,6 +47,9 @@ public class PlayerMoviment : MonoBehaviour
         if (Input.touchCount == 0) return;
 
         Touch touch = Input.GetTouch(0);
+
+        if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+            return;
 
         if (touch.phase == TouchPhase.Began)
         {

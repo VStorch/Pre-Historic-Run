@@ -47,9 +47,8 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
-    public void StopMusic()
-    {
-        musicSource.Stop();
-    }
+    public void StopMusic() => musicSource.Stop();
+    public void PauseMusic() => musicSource.Pause();
+    public void ResumeMusic() => musicSource.UnPause();
 
 }
