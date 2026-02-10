@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     public Text highScoreUI;
     public Text collectibleUI;
     public GameObject gameOverPanel;
+    public Button pauseButton;
 
     private float highScore;
     private int pacas;
@@ -161,11 +162,31 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
         yield return new WaitForSeconds(0.7f);
         gameOverPanel.SetActive(true);
+
+        if (pauseButton != null)
+        {
+            pauseButton.interactable = false;
+
+            Color c = pauseButton.image.color;
+            c.a = 0.25f;
+            pauseButton.image.color = c;
+        }
+
         Time.timeScale = 0f;
     }
 
+    public bool IsGameOver => isGameOver;
+
     public void RestartGame()
     {
+        if (pauseButton != null)
+        {
+            pauseButton.interactable = true;
+            Color c = pauseButton.image.color;
+            c.a = 1f;
+            pauseButton.image.color = c;
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         AudioManager.Instance.PlayMusic();
