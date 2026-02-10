@@ -5,6 +5,10 @@
 
 **Pre-Historic Run** is a 2D Endless Runner game developed in **Unity**, where you control a **saber-toothed tiger** sprinting across prehistoric South American landscapes. Dodge obstacles, collect pacas, survive seasonal changes, and try to beat your own high score.
 
+## ⬇️ Download
+
+[Download latest APK](https://github.com/VStorch/Pre-Historic-Run/releases/latest)
+
 ## 🎮 Gameplay Overview
 
 The player controls a constantly running saber‑toothed tiger. The main objective is to survive for as long as possible while the environment dynamically alternates between summer and winter, affecting visuals and atmosphere.

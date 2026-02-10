@@ -5,6 +5,10 @@
 
 **Pre-Historic Run** é um jogo Endless Runner 2D desenvolvido em **Unity**, onde você controla um **tigre-dentes-de-sabre** correndo por paisagens pré-históricas da América do Sul. Desvie de obstáculos, colete pacas, sobreviva às mudanças sazonais e tente bater seu recorde.
 
+## ⬇️ Download
+
+[Baixar o último APK](https://github.com/VStorch/Pre-Historic-Run/releases/latest)
+
 ## 🎮 Visão Geral do Jogo
 
 O jogador controla um tigre-dentes-de-sabre que corre constantemente. O objetivo principal é sobreviver o maior tempo possível enquanto o ambiente alterna dinamicamente entre verão e inverno, afetando o visual e a atmosfera.
@@ -69,7 +73,7 @@ A **trilha sonora original** foi composta por mim usando o **BandLab**.
 
 Alguns efeitos sonoros foram obtidos no **Pixabay**, sob sua licença gratuita:
 
-- Som de tigre — [dffdv](https://pixabay.com/pt/users/dffdv-42492812/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=193229) (Used in music)
+- Som de tigre — [dffdv](https://pixabay.com/pt/users/dffdv-42492812/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=193229) (utilizado na trilha sonora)
 - Som de morte — [Ribhav Agrawal](https://pixabay.com/pt/users/ribhavagrawal-39286533/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=293295)
 - Paca / Moeda — [maquistom_kalulo](https://pixabay.com/pt/users/maquistom_kalulo-48325488/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=320820)
 - Power‑Up — [freesound_community](https://pixabay.com/pt/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=104642)
